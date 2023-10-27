@@ -6,6 +6,7 @@ import android.view.ViewTreeObserver
 import android.view.ViewTreeObserver.OnGlobalLayoutListener
 import android.widget.Toast
 import com.example.xeiomicalculator2.databinding.ActivityMainBinding
+import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -130,6 +131,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnMasavi.setOnClickListener {
             try {
+
 
 
                 val result = binding.txtExpression.text.toString()
